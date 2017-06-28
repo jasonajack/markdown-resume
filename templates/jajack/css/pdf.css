@@ -16,8 +16,8 @@ body.pdf {
     }
 
     .resume {
-        position:relative;
-        padding: 40px 80px;
+        position: relative;
+        padding: 40px 20px 40px 0;
     }
 
     a[href$='.pdf'] {
@@ -40,12 +40,12 @@ body.pdf {
     }
     h3 {
         float: left;
-        width: 16%;
+        width: 14%;
         font-style: normal;
     }
-    h3+p {
+    h3 + p {
         float: left;
-        width: 78%;
+        width: 82%;
     }
 
     blockquote {
@@ -73,7 +73,7 @@ body.pdf {
 
     ol {
         float: left;
-        width: 79%;
+        width: 82%;
         margin: .7em 0 0;
     }
 
@@ -92,7 +92,7 @@ body.pdf {
         margin: .7em 0 0;
         page-break-inside: avoid !important;
         display: block;
-        width:79%;
+        width: 82%;
         float: left;
         dt {}
         dd {
